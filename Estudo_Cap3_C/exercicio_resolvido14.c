@@ -21,7 +21,7 @@ int main()
     
     //print results
     printf("Idade atual %2.f", idade);
-    printf("Idade em 2050 %2.f", idade_futura);
+    printf("\nIdade em 2050 %2.f", idade_futura);
     
     return 0;
 }
