@@ -28,6 +28,9 @@ int main() {
     else if(x == 0 & y == 0){
         printf("Origem");
     }
+    else{
+        printf("Eixo X ou Eixo Y");
+    }
  
     return 0;
 }
