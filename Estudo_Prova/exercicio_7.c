@@ -35,6 +35,11 @@ int main(){
     }
 
         if(resposta == 1){
+            printf("Digite a primeira nota: ");
+            scanf("%f", &nota1);
+            printf("Digite a segunda nota: ");
+            scanf("%f", &nota2);
+            media = (nota1 + nota2)/2;
             printf("Media %2.f", media);
         }
         else if(resposta == 2){

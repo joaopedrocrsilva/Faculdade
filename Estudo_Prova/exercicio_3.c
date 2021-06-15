@@ -2,28 +2,30 @@
  
 int main() {
  
-    //set variables
-    float num;
+    float valor;
     
-    //enter values
-    printf("Digite um numero: ");
-    scanf("%f", &num);
+    scanf("%f", &valor);
     
-    //set coditions
-    if(num >= 0 && num <25){
-        printf("Intervalo [0,25]");
+    if(valor >= 0 && valor <= 25){
+        printf("Intervalo [0, 25]");
+        printf("");
     }
-    else if(num >= 25 && num <= 50){
-        printf("Intervalo [25,50]");
+    else if(valor > 25 && valor < 50){
+        printf("Intervalo [25, 50]");
+        printf("");
     }
-    else if(num >= 75 && num <= 100){
-        printf("Intervalo [75,100]");
+    else if(valor > 50 && valor < 75){
+        printf("Intervalo [50, 75]");
+        printf("");
     }
-
+    else if(valor > 75 && valor < 100){
+        printf("Intervalo [75, 100]");
+        printf("");
+    }
     else{
-        printf("\nFora de intervalo");
+        printf("Fora de intervalo");
+        printf("");
     }
-
- 
+    
     return 0;
 }
