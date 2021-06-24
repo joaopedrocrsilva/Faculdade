@@ -1,25 +1,22 @@
-//#include <stdio.h>
+//#include<stdio.h>
 
 int main(){
-    //set variables
-    int num1;
-    int num2;
+
+    int x;
+    int y;
     int i;
 
-    //enter values
-    printf("Digite o numero 1: ");
-    scanf("%d", &num1);
-    printf("Digite o numero 2: ");
-    scanf("%d", &num2);
+    scanf("%d", &x);
+    scanf("%d", &y);
 
-    //set variables
 
-    //set coditions
-    for(i = num1; i < num2; i++){
+    for(i = x; i < y; i++){
         if(i%5 == 2 || i%5 == 3){
-            printf("\n %2.d", i);
+            printf("\n %d", i);
         }
     }
+
+    printf("\n");
 
     return 0;
 }
